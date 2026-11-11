@@ -2,7 +2,7 @@
 
 Proyek UTS Pengolahan Citra & Visi Komputer — **Kelompok 06, Tema 6**.
 
-🌐 **Website:** _(tempel URL Streamlit di sini, misalnya `https://deteksi-marka-jalan-pada-video.streamlit.app`)_
+🌐 **Website:** https://deteksi-marka-jalan-pada-video.streamlit.app
 
 ---
 
