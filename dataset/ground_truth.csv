@@ -1,0 +1,51 @@
+video,short_id,kondisi,frame_idx,y_ref,left_visible,left_x,right_visible,right_x,catatan
+ideal/20261024_075053.mp4,klip1_ideal1,Ideal,0,0.75,Ya,190,Ya,890,Garis tepi kiri & marka putih kanan jelas
+ideal/20261024_075053.mp4,klip1_ideal1,Ideal,80,0.75,Ya,165,Ya,760,Garis tepi kiri & marka putus-putus kanan jelas
+ideal/20261024_075053.mp4,klip1_ideal1,Ideal,160,0.75,Ya,195,Ya,745,Bayangan pohon ringan; kedua garis jelas
+ideal/20261024_075053.mp4,klip1_ideal1,Ideal,241,0.75,Ya,300,Ya,790,Ada angkot di depan; kedua garis terlihat
+ideal/20261024_075053.mp4,klip1_ideal1,Ideal,321,0.75,Ya,295,Ya,775,Kedua garis jelas
+ideal/20261024_075053.mp4,klip1_ideal1,Ideal,401,0.75,Ya,283,Ya,727,Kedua garis jelas
+ideal/20261024_075053.mp4,klip1_ideal1,Ideal,482,0.75,Ya,287,Ya,780,Zebra cross menutupi sebagian; marka kanan ditebak dari dash terdekat
+ideal/20261024_075053.mp4,klip1_ideal1,Ideal,562,0.75,Ya,340,Ya,730,Motor di depan kanan; kedua garis terlihat
+ideal/20261024_075053.mp4,klip1_ideal1,Ideal,642,0.75,Ya,350,Ya,735,Mendekati simpang; kedua garis terlihat
+ideal/20261024_075053.mp4,klip1_ideal1,Ideal,723,0.75,Ya,265,Ya,725,Zebra cross & garis henti melintang
+ideal/WhatsApp Video 2026-10-24 at 09.30.44.mp4,klip2_ideal2,Ideal,0,0.75,Ya,254,Ya,565,Motor parkir di kiri; garis tepi kiri terlihat
+ideal/WhatsApp Video 2026-10-24 at 09.30.44.mp4,klip2_ideal2,Ideal,63,0.75,Ya,233,Ya,525,Kepala pengendara menutup sudut kiri; garis masih terlihat
+ideal/WhatsApp Video 2026-10-24 at 09.30.44.mp4,klip2_ideal2,Ideal,127,0.75,Ya,225,Ya,505,Garis kiri tipis; marka tengah putus-putus
+ideal/WhatsApp Video 2026-10-24 at 09.30.44.mp4,klip2_ideal2,Ideal,191,0.75,Ya,305,Ya,500,Kedua garis jelas
+ideal/WhatsApp Video 2026-10-24 at 09.30.44.mp4,klip2_ideal2,Ideal,255,0.75,Ya,268,Ya,505,Kedua garis jelas
+ideal/WhatsApp Video 2026-10-24 at 09.30.44.mp4,klip2_ideal2,Ideal,319,0.75,Ya,319,Ya,559,Kedua garis jelas
+ideal/WhatsApp Video 2026-10-24 at 09.30.44.mp4,klip2_ideal2,Ideal,383,0.75,Ya,281,Ya,522,Kedua garis jelas
+ideal/WhatsApp Video 2026-10-24 at 09.30.44.mp4,klip2_ideal2,Ideal,447,0.75,Ya,291,Ya,511,Marka tengah mulai samar; masih terlihat
+ideal/WhatsApp Video 2026-10-24 at 09.30.44.mp4,klip2_ideal2,Ideal,511,0.75,Ya,282,Ya,529,Aspal kasar; kedua garis terlihat
+ideal/WhatsApp Video 2026-10-24 at 09.30.44.mp4,klip2_ideal2,Ideal,575,0.75,Ya,245,Ya,511,Garis kiri putus-putus tipis
+jalan menikung/WhatsApp Video 2026-10-24 at 09.30.37.mp4,klip3_menikung,Menikung,0,0.75,Ya,205,Ya,505,Motor di depan; marka tengah putus-putus
+jalan menikung/WhatsApp Video 2026-10-24 at 09.30.37.mp4,klip3_menikung,Menikung,58,0.75,Ya,229,Ya,518,Marka tengah tertutup motor sebagian
+jalan menikung/WhatsApp Video 2026-10-24 at 09.30.37.mp4,klip3_menikung,Menikung,116,0.75,Ya,251,Ya,519,Mendekati tikungan; kedua garis jelas
+jalan menikung/WhatsApp Video 2026-10-24 at 09.30.37.mp4,klip3_menikung,Menikung,174,0.75,Ya,270,Ya,545,Garis kejut melintang; kedua garis jelas
+jalan menikung/WhatsApp Video 2026-10-24 at 09.30.37.mp4,klip3_menikung,Menikung,232,0.75,Ya,313,Ya,604,Tikungan kanan; garis kiri hanya segmen pendek
+jalan menikung/WhatsApp Video 2026-10-24 at 09.30.37.mp4,klip3_menikung,Menikung,290,0.75,Ya,285,Ya,641,Puncak tikungan; garis kiri putus-putus samar
+jalan menikung/WhatsApp Video 2026-10-24 at 09.30.37.mp4,klip3_menikung,Menikung,348,0.75,Tidak,,Ya,543,Garis kiri hampir horizontal & keluar frame di baris acuan; marka tengah melengkung
+jalan menikung/WhatsApp Video 2026-10-24 at 09.30.37.mp4,klip3_menikung,Menikung,406,0.75,Tidak,,Ya,536,Garis kiri keluar frame di baris acuan; marka tengah melengkung ke kanan
+jalan menikung/WhatsApp Video 2026-10-24 at 09.30.37.mp4,klip3_menikung,Menikung,464,0.75,Ya,150,Ya,611,Kedua garis terlihat
+jalan menikung/WhatsApp Video 2026-10-24 at 09.30.37.mp4,klip3_menikung,Menikung,522,0.75,Ya,125,Ya,669,Garis kiri dekat kepala pengendara; kedua terlihat
+sulit/20261024_074800.mp4,klip4_sulit_glare,Sulit,0,0.75,Ya,89,Ya,750,"Aspal gelap, garis jelas"
+sulit/20261024_074800.mp4,klip4_sulit_glare,Sulit,82,0.75,Ya,202,Ya,717,Motor lewat di depan; kedua garis terlihat
+sulit/20261024_074800.mp4,klip4_sulit_glare,Sulit,164,0.75,Ya,261,Ya,760,Silau di kanan; garis kiri putus-putus; marka tengah jauh
+sulit/20261024_074800.mp4,klip4_sulit_glare,Sulit,246,0.75,Ya,222,Ya,733,Bayangan tembok & silau; kedua garis terlihat
+sulit/20261024_074800.mp4,klip4_sulit_glare,Sulit,328,0.75,Ya,179,Ya,714,Garis kejut melintang & silau
+sulit/20261024_074800.mp4,klip4_sulit_glare,Sulit,411,0.75,Ya,216,Ya,696,Garis kejut melintang & pantulan cahaya
+sulit/20261024_074800.mp4,klip4_sulit_glare,Sulit,493,0.75,Ya,254,Ya,672,Bayangan pohon melintang di aspal
+sulit/20261024_074800.mp4,klip4_sulit_glare,Sulit,575,0.75,Ya,291,Ya,672,Genangan air kiri & silau kanan
+sulit/20261024_074800.mp4,klip4_sulit_glare,Sulit,657,0.75,Ya,254,Ya,680,Garis kejut di bawah bayangan
+sulit/20261024_074800.mp4,klip4_sulit_glare,Sulit,740,0.75,Ya,209,Ya,737,"Bayangan melintang, garis jelas"
+sulit/malam.mp4,klip5_sulit_malam,Sulit,0,0.55,Ya,130,Ya,492,Malam; garis kiri tipis & redup; marka tengah dash terang
+sulit/malam.mp4,klip5_sulit_malam,Sulit,74,0.55,Ya,133,Ya,490,Malam; garis kiri tipis & redup
+sulit/malam.mp4,klip5_sulit_malam,Sulit,148,0.55,Ya,150,Ya,490,Malam; garis kiri tipis & redup; marka tengah dash terang
+sulit/malam.mp4,klip5_sulit_malam,Sulit,223,0.55,Ya,150,Ya,490,Malam; garis kiri tipis & redup; marka tengah dash terang
+sulit/malam.mp4,klip5_sulit_malam,Sulit,297,0.55,Ya,150,Ya,490,Malam; garis kiri tipis & redup; marka tengah dash terang
+sulit/malam.mp4,klip5_sulit_malam,Sulit,372,0.55,Ya,150,Ya,490,Malam; garis kiri tipis & redup; marka tengah dash terang
+sulit/malam.mp4,klip5_sulit_malam,Sulit,446,0.55,Ya,150,Ya,490,Malam; garis kiri tipis & redup; marka tengah dash terang
+sulit/malam.mp4,klip5_sulit_malam,Sulit,521,0.55,Ya,150,Ya,490,Malam; garis kiri tipis & redup; marka tengah dash terang
+sulit/malam.mp4,klip5_sulit_malam,Sulit,595,0.55,Ya,150,Ya,490,Malam; garis kiri tipis & redup; marka tengah dash terang
+sulit/malam.mp4,klip5_sulit_malam,Sulit,670,0.55,Ya,150,Ya,490,Malam; garis kiri tipis & redup; marka tengah dash terang

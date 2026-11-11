@@ -1,0 +1,5 @@
+metode,parameter,akurasi_kiri_%,akurasi_kanan_%,akurasi_kedua_garis_%,mae_px_kiri,mae_px_kanan,garis_mentah_per_frame,waktu_hough_ms
+HoughLinesP,"threshold=25, minLen=25, gap=60",88.0,86.0,82.0,26.5,16.0,93.1,2.66
+HoughLines,threshold=60,76.0,60.0,44.0,36.8,54.2,114.6,3.21
+HoughLines,threshold=100,78.0,40.0,32.0,17.5,89.6,14.8,3.2
+HoughLines,threshold=150,62.0,20.0,14.0,10.4,121.1,3.9,3.09

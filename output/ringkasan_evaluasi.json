@@ -1,0 +1,442 @@
+{
+  "target_max_side_px": 1000,
+  "parameter_pipeline": {
+    "blur_ksize": 5,
+    "canny_persentil": 97,
+    "canny_rasio_bawah": 0.4,
+    "canny_min": 15,
+    "terang_blok": 31,
+    "terang_C": 10,
+    "terang_lebar": 7,
+    "hough_rho": 1,
+    "hough_theta": 0.017453292519943295,
+    "hough_thr": 25,
+    "hough_min_len": 25,
+    "hough_max_gap": 60,
+    "kal_n_frame": 30,
+    "kal_y_atas": 0.05,
+    "kal_hough": [
+      30,
+      40,
+      20
+    ],
+    "kal_tol_px": 12,
+    "vp_y_rentang": [
+      0.0,
+      0.65
+    ],
+    "roi_bawah": 0.93,
+    "roi_turun": 0.05,
+    "roi_lebar_atas": 0.25,
+    "pos_ref": 0.6,
+    "aspal_min": 0.35,
+    "vp_tol": 0.15,
+    "inv_tegak": 0.15,
+    "kontras_min": 20,
+    "gap_klaster": 25,
+    "bobot_min": 40,
+    "lebar_lajur_min": 120,
+    "alpha": 0.4,
+    "hold": 6,
+    "toleransi_px": 50,
+    "margin_px": 20
+  },
+  "kalibrasi_otomatis": {
+    "klip1_ideal1": {
+      "titik_hilang": [
+        544.0,
+        192.0
+      ],
+      "roi": [
+        [
+          0.0,
+          0.93
+        ],
+        [
+          0.294,
+          0.392
+        ],
+        [
+          0.794,
+          0.392
+        ],
+        [
+          1.0,
+          0.93
+        ]
+      ],
+      "baris_acuan": 0.715
+    },
+    "klip2_ideal2": {
+      "titik_hilang": [
+        440.0,
+        248.0
+      ],
+      "roi": [
+        [
+          0.0,
+          0.93
+        ],
+        [
+          0.19,
+          0.49
+        ],
+        [
+          0.69,
+          0.49
+        ],
+        [
+          1.0,
+          0.93
+        ]
+      ],
+      "baris_acuan": 0.754
+    },
+    "klip3_menikung": {
+      "titik_hilang": [
+        456.0,
+        224.0
+      ],
+      "roi": [
+        [
+          0.0,
+          0.93
+        ],
+        [
+          0.206,
+          0.447
+        ],
+        [
+          0.706,
+          0.447
+        ],
+        [
+          1.0,
+          0.93
+        ]
+      ],
+      "baris_acuan": 0.737
+    },
+    "klip4_sulit_glare": {
+      "titik_hilang": [
+        544.0,
+        160.0
+      ],
+      "roi": [
+        [
+          0.0,
+          0.93
+        ],
+        [
+          0.294,
+          0.335
+        ],
+        [
+          0.794,
+          0.335
+        ],
+        [
+          1.0,
+          0.93
+        ]
+      ],
+      "baris_acuan": 0.692
+    },
+    "klip5_sulit_malam": {
+      "titik_hilang": [
+        504.0,
+        128.0
+      ],
+      "roi": [
+        [
+          0.0,
+          0.93
+        ],
+        [
+          0.254,
+          0.278
+        ],
+        [
+          0.754,
+          0.278
+        ],
+        [
+          1.0,
+          0.93
+        ]
+      ],
+      "baris_acuan": 0.669
+    }
+  },
+  "video": [
+    {
+      "klip": "klip1_ideal1",
+      "frame_dibaca": 724,
+      "frame_ditulis": 724,
+      "ukuran": "1000x562",
+      "fps_video": 29.9,
+      "fps_proses": 22.7,
+      "waktu_detik": 31.9,
+      "garis_kiri_digambar_pct": 100.0,
+      "garis_kanan_digambar_pct": 99.3,
+      "frame_menyilang_pct": 10.4,
+      "ukuran_mb": 91.4
+    },
+    {
+      "klip": "klip2_ideal2",
+      "frame_dibaca": 576,
+      "frame_ditulis": 576,
+      "ukuran": "1000x564",
+      "fps_video": 29.9,
+      "fps_proses": 27.7,
+      "waktu_detik": 20.8,
+      "garis_kiri_digambar_pct": 100.0,
+      "garis_kanan_digambar_pct": 100.0,
+      "frame_menyilang_pct": 0.9,
+      "ukuran_mb": 23.0
+    },
+    {
+      "klip": "klip3_menikung",
+      "frame_dibaca": 523,
+      "frame_ditulis": 523,
+      "ukuran": "1000x564",
+      "fps_video": 29.7,
+      "fps_proses": 36.0,
+      "waktu_detik": 14.5,
+      "garis_kiri_digambar_pct": 100.0,
+      "garis_kanan_digambar_pct": 99.4,
+      "frame_menyilang_pct": 6.7,
+      "ukuran_mb": 21.7
+    },
+    {
+      "klip": "klip4_sulit_glare",
+      "frame_dibaca": 741,
+      "frame_ditulis": 741,
+      "ukuran": "1000x562",
+      "fps_video": 30.0,
+      "fps_proses": 19.7,
+      "waktu_detik": 37.6,
+      "garis_kiri_digambar_pct": 100.0,
+      "garis_kanan_digambar_pct": 100.0,
+      "frame_menyilang_pct": 6.2,
+      "ukuran_mb": 72.2
+    },
+    {
+      "klip": "klip5_sulit_malam",
+      "frame_dibaca": 671,
+      "frame_ditulis": 671,
+      "ukuran": "1000x562",
+      "fps_video": 59.1,
+      "fps_proses": 36.1,
+      "waktu_detik": 18.6,
+      "garis_kiri_digambar_pct": 100.0,
+      "garis_kanan_digambar_pct": 100.0,
+      "frame_menyilang_pct": 0.3,
+      "ukuran_mb": 4.9
+    }
+  ],
+  "akurasi_per_frame": [
+    {
+      "kondisi": "Ideal",
+      "frame": 20,
+      "akurasi_kiri": 85.0,
+      "akurasi_kanan": 75.0,
+      "akurasi_kedua_garis": 75.0,
+      "benar_kedua": "15/20",
+      "mae_px_kiri": 24.8,
+      "mae_px_kanan": 29.2
+    },
+    {
+      "kondisi": "Menikung",
+      "frame": 10,
+      "akurasi_kiri": 90.0,
+      "akurasi_kanan": 80.0,
+      "akurasi_kedua_garis": 80.0,
+      "benar_kedua": "8/10",
+      "mae_px_kiri": 8.6,
+      "mae_px_kanan": 4.8
+    },
+    {
+      "kondisi": "Sulit",
+      "frame": 20,
+      "akurasi_kiri": 90.0,
+      "akurasi_kanan": 100.0,
+      "akurasi_kedua_garis": 90.0,
+      "benar_kedua": "18/20",
+      "mae_px_kiri": 35.2,
+      "mae_px_kanan": 9.2
+    },
+    {
+      "kondisi": "TOTAL",
+      "frame": 50,
+      "akurasi_kiri": 88.0,
+      "akurasi_kanan": 86.0,
+      "akurasi_kedua_garis": 82.0,
+      "benar_kedua": "41/50",
+      "mae_px_kiri": 26.5,
+      "mae_px_kanan": 16.0
+    }
+  ],
+  "akurasi_video_smoothing": [
+    {
+      "kondisi": "Ideal",
+      "frame": 20,
+      "akurasi_kiri": 90.0,
+      "akurasi_kanan": 80.0,
+      "akurasi_kedua_garis": 80.0,
+      "benar_kedua": "16/20",
+      "mae_px_kiri": 24.5,
+      "mae_px_kanan": 34.7
+    },
+    {
+      "kondisi": "Menikung",
+      "frame": 10,
+      "akurasi_kiri": 90.0,
+      "akurasi_kanan": 100.0,
+      "akurasi_kedua_garis": 90.0,
+      "benar_kedua": "9/10",
+      "mae_px_kiri": 9.0,
+      "mae_px_kanan": 5.8
+    },
+    {
+      "kondisi": "Sulit",
+      "frame": 20,
+      "akurasi_kiri": 90.0,
+      "akurasi_kanan": 95.0,
+      "akurasi_kedua_garis": 90.0,
+      "benar_kedua": "18/20",
+      "mae_px_kiri": 32.6,
+      "mae_px_kanan": 14.0
+    },
+    {
+      "kondisi": "TOTAL",
+      "frame": 50,
+      "akurasi_kiri": 90.0,
+      "akurasi_kanan": 90.0,
+      "akurasi_kedua_garis": 86.0,
+      "benar_kedua": "43/50",
+      "mae_px_kiri": 25.3,
+      "mae_px_kanan": 20.6
+    }
+  ],
+  "hough_vs_houghp": [
+    {
+      "metode": "HoughLinesP",
+      "parameter": "threshold=25, minLen=25, gap=60",
+      "akurasi_kiri_%": 88.0,
+      "akurasi_kanan_%": 86.0,
+      "akurasi_kedua_garis_%": 82.0,
+      "mae_px_kiri": 26.5,
+      "mae_px_kanan": 16.0,
+      "garis_mentah_per_frame": 93.1,
+      "waktu_hough_ms": 2.66
+    },
+    {
+      "metode": "HoughLines",
+      "parameter": "threshold=60",
+      "akurasi_kiri_%": 76.0,
+      "akurasi_kanan_%": 60.0,
+      "akurasi_kedua_garis_%": 44.0,
+      "mae_px_kiri": 36.8,
+      "mae_px_kanan": 54.2,
+      "garis_mentah_per_frame": 114.6,
+      "waktu_hough_ms": 3.21
+    },
+    {
+      "metode": "HoughLines",
+      "parameter": "threshold=100",
+      "akurasi_kiri_%": 78.0,
+      "akurasi_kanan_%": 40.0,
+      "akurasi_kedua_garis_%": 32.0,
+      "mae_px_kiri": 17.5,
+      "mae_px_kanan": 89.6,
+      "garis_mentah_per_frame": 14.8,
+      "waktu_hough_ms": 3.2
+    },
+    {
+      "metode": "HoughLines",
+      "parameter": "threshold=150",
+      "akurasi_kiri_%": 62.0,
+      "akurasi_kanan_%": 20.0,
+      "akurasi_kedua_garis_%": 14.0,
+      "mae_px_kiri": 10.4,
+      "mae_px_kanan": 121.1,
+      "garis_mentah_per_frame": 3.9,
+      "waktu_hough_ms": 3.09
+    }
+  ],
+  "eksperimen_canny": [
+    {
+      "canny": "(20,60)",
+      "akurasi_kiri_%": 82.0,
+      "akurasi_kanan_%": 78.0,
+      "kedua_Ideal_%": 75.0,
+      "kedua_Menikung_%": 90.0,
+      "kedua_Sulit_%": 60.0,
+      "kedua_total_%": 72.0
+    },
+    {
+      "canny": "(30,90)",
+      "akurasi_kiri_%": 84.0,
+      "akurasi_kanan_%": 80.0,
+      "kedua_Ideal_%": 70.0,
+      "kedua_Menikung_%": 80.0,
+      "kedua_Sulit_%": 75.0,
+      "kedua_total_%": 74.0
+    },
+    {
+      "canny": "(40,120)",
+      "akurasi_kiri_%": 82.0,
+      "akurasi_kanan_%": 82.0,
+      "kedua_Ideal_%": 70.0,
+      "kedua_Menikung_%": 80.0,
+      "kedua_Sulit_%": 70.0,
+      "kedua_total_%": 72.0
+    },
+    {
+      "canny": "(50,150)",
+      "akurasi_kiri_%": 88.0,
+      "akurasi_kanan_%": 90.0,
+      "kedua_Ideal_%": 80.0,
+      "kedua_Menikung_%": 90.0,
+      "kedua_Sulit_%": 80.0,
+      "kedua_total_%": 82.0
+    },
+    {
+      "canny": "(60,180)",
+      "akurasi_kiri_%": 90.0,
+      "akurasi_kanan_%": 88.0,
+      "kedua_Ideal_%": 75.0,
+      "kedua_Menikung_%": 90.0,
+      "kedua_Sulit_%": 90.0,
+      "kedua_total_%": 84.0
+    },
+    {
+      "canny": "(80,240)",
+      "akurasi_kiri_%": 70.0,
+      "akurasi_kanan_%": 62.0,
+      "kedua_Ideal_%": 35.0,
+      "kedua_Menikung_%": 80.0,
+      "kedua_Sulit_%": 35.0,
+      "kedua_total_%": 44.0
+    },
+    {
+      "canny": "(100,200)",
+      "akurasi_kiri_%": 86.0,
+      "akurasi_kanan_%": 78.0,
+      "kedua_Ideal_%": 55.0,
+      "kedua_Menikung_%": 90.0,
+      "kedua_Sulit_%": 75.0,
+      "kedua_total_%": 70.0
+    },
+    {
+      "canny": "otomatis",
+      "akurasi_kiri_%": 88.0,
+      "akurasi_kanan_%": 86.0,
+      "kedua_Ideal_%": 75.0,
+      "kedua_Menikung_%": 80.0,
+      "kedua_Sulit_%": 90.0,
+      "kedua_total_%": 82.0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.zip
+output/videos/
+arsip/
+app2.py
+.ipynb_checkpoints/
+output/analisis_kegagalan_3contoh.jpg
+output/experiments/hough_comparison/
+laporan_Kelompok06.pdf
+LAPORAN_UTS_KELOMPOK06.md
